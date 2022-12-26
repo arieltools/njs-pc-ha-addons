@@ -1,0 +1,23 @@
+name: "nodejs-poolController-dashPanel"
+description: "nodejs-poolController-dashPanel"
+version: "0.1"
+slug: "nodejs_poolcontroller_dashpanel"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+host_network: true
+ingress: true
+ingress_port: 0
+ingress_stream: true
+ports:
+  5150/tcp: 5150
+ports_description:
+  5150/tcp: Web interface
+log:
+  logfile: STDOUT
+  errorfile: STDERR
+panel_icon: mdi:waves-arrow-up

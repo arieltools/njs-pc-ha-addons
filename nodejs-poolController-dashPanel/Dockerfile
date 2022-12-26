@@ -1,0 +1,1 @@
+FROM msmi/nodejs-poolcontroller-dashpanel:latest

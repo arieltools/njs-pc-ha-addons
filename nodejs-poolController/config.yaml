@@ -1,0 +1,21 @@
+name: "nodejs-poolController"
+description: "nodejs-poolController"
+version: "latest"
+slug: "nodejs_poolcontroller"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+host_network: true
+ports:
+  4200/tcp: 4200
+ports_description:
+  4200/tcp: Web interface
+log:
+  logfile: STDOUT
+  errorfile: STDERR
+panel_icon: mdi:waves-arrow-up
+image: msmi/nodejs-poolcontroller
